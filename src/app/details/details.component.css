@@ -1,0 +1,28 @@
+#det{
+    height: 350px;
+    width: 222px;
+    border: 1px solid palevioletred;
+    background-color: pink;
+    border-radius: 20px;
+    margin-left: 280px;
+}
+#det img{
+    height: 200px;
+    width: 220px;
+    border-radius: 20px;
+
+}
+#det p{
+    text-transform: capitalize;
+    width: 220px;
+
+}
+.back{
+    margin-left: 220px;
+    border: none;
+    text-transform: uppercase;
+    background-color: peru;
+    color: black;
+    cursor: pointer;
+    border-radius: 13px;
+}

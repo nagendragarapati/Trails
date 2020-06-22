@@ -1,0 +1,84 @@
+.servicesec{
+height: 400px;
+background: url(../../assets/images/back2_02.png) no-repeat;
+background-size: cover;
+}
+.servicesec p{
+    color: #bdbebd;
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    margin-left: 320px;
+line-height: 25px;
+
+}
+.servicesec h2{
+    margin-top: 0px;
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+padding-top: 40px;
+
+}
+.servicesec button{
+    margin-left: 640px;
+margin-top: 20px;
+padding: 3px 5px;
+border-radius: 5px;
+text-transform: capitalize;
+color: brown;
+cursor: pointer;
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px){
+    .servicesec{
+        height: 170px;   
+    }
+    .servicesec h2{
+        margin-top: 0px;
+    font-size: 12px;
+    text-align: center;
+padding-top: 2%;
+
+    }
+    .servicesec p{
+        font-size: 6px;
+        width:70%;
+        line-height: 11px;
+        text-align: center;
+        margin-left: 10%;
+
+    }    
+    .servicesec button{
+        margin-left: 35%;
+    font-size: 6px;
+    margin-top: 0px;
+
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    .servicesec{
+        height: 290px;   
+    }
+    .servicesec h2{
+    font-size: 30px;
+padding-top: 3%;
+
+    }
+    .servicesec p{
+        font-size: 12px;
+        width:70%;
+        line-height: 18px;
+        text-align: center;
+        margin-left: 20%;
+
+    }    
+    .servicesec button{
+        margin-left: 42%;
+    font-size: 12px;
+    margin-top: 0px;
+
+    }
+    
+    
+}

@@ -1,0 +1,52 @@
+.footersec{
+    height: 160px;
+    background-color:#2d3133;
+
+}
+.footersec p{
+    color: #d0d0d0;
+    font-size: 13px;
+    text-align: center;
+padding-top: 10px;
+margin-top: 0px;
+
+}
+.icons{
+    margin-left: 650px;
+   
+}
+.icons i{
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 500px) and (min-width: 300px){
+    .footersec{
+        height: 115px;
+        margin-left: 0%;
+    }
+    .footersec p{
+        font-size: 8px;
+padding-top: 5px;
+    }
+    .icons{
+        margin-left: 30%;
+    }
+    .icons i{
+        font-size: 5px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    .icons{
+        margin-left: 40%;
+    }
+    
+}
+
+#animation{
+    color: rgb(170, 238, 130);
+    font-size: 20px;
+    
+}

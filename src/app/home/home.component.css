@@ -1,0 +1,60 @@
+.home {
+    background: url(../../assets/images/back1_03.png);
+    height: 420px;
+    background-size: cover;
+}
+.home p{
+    font-size: 26px;
+    width: 367px;
+    margin: 0% 0% 0% 19%;
+    padding: 4% 0% 0% 0%;
+}
+.about{
+    border: 0px;
+    color: white;
+    background-color: #115b90;
+    padding: 0.7% 2%;
+    font-size: 16px;
+    margin: 8% 0% 0% 27%;
+    border-radius: 10px;
+}
+.child{
+    border: none;
+    border-radius: 5px;
+    color:green;
+    text-transform: capitalize;
+    background-color: burlywood;
+    margin-left: 150px;
+
+}
+
+
+
+@media screen and (max-width: 500px) and (min-width: 300px){
+    .home {
+        height: 150px;
+    }
+    .home p{
+        font-size: 10px;
+        width: 23%;
+    margin: 0% 0% 0% 19%;
+    padding: 5% 0% 0% 0%;
+    }
+    .about{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 600px){
+    .home {
+        height: 300px;
+    }
+    .home p{
+        font-size: 16px;
+        width: 22%;
+    margin: 0% 0% 0% 19%;
+    padding: 5% 0% 0% 0%;
+    }
+    .about{
+        font-size: 15px;
+    }
+}

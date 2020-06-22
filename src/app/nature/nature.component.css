@@ -1,0 +1,19 @@
+#nag{
+    height: 400px;
+}
+#nag p{
+	position: absolute;
+	color:#fff;
+	text-transform: uppercase;
+	font-size: 25px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 320px;
+    border: 1px solid black;
+    background-color: black;
+    width: 18%;
+}
+#nag img{ 
+position:absolute;
+animation: slide 12s infinite;
+}
